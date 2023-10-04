@@ -14,6 +14,6 @@
 */
 
 $router->get('/', function () use ($router) {
-    return "welcome to ci cd testing purpose";
+    return "welcome to ci cd";
     return $router->app->version();
 });
